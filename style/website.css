@@ -170,6 +170,25 @@ main section{
 
 footer{
     display: flex;
+    max-width: 1650px;
+    gap: 110px;
     background-color: #fff8f3;
-    padding: 130px 250px;
+    padding: 130px 30px;
+    margin: 0 auto;
+}
+.footer-colum{
+    width: 50%;
+}
+.social-links a{
+    margin: 20px;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: white;
+    border: 0;
+    width: 80%;
 }
