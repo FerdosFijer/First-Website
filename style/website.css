@@ -77,6 +77,10 @@ nav a{
 /* Main section styles */
 
 /* about section styles */
+main{
+    max-width: 1640px;
+    margin: 0 auto;
+}
 .about{
     padding: 130px;
     background: #fff8f3;
@@ -93,4 +97,18 @@ nav a{
     color: #757575;
     text-align: center;
     font-size: 18px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    margin: 8px;
+}
+.info-title{
+    font-weight: normal;
+}
+.info-description{
+    font-weight: bolder;
 }
