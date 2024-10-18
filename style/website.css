@@ -18,8 +18,9 @@ body{
 /* nav related style */
 nav {
     display: flex;
-     justify-content: space-between; 
-    
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0 200px;
 }
 .nav-title-Mary{
     color: #181818;
@@ -37,4 +38,18 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+/* Header related style */
+.header{
+    background-color: #fff8f3;
+}
+.bannerforheader{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.bannerforheader .Profilepicture{
+    width: 500px;
+
 }
